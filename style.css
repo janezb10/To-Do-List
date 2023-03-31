@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&display=swap');
+
+* {
+    font-family: 'Alkatra', cursive;
+}
+
+body {
+    background: #EAB676;
+    color: #873E23;
+}
+
+.x {
+    float: right;
+}
+.x:hover {
+    background-color: #E28743 !important;
+    color: #873E23;
+}
+
+.bg-danger {
+    background-color: #A61C1B !important;
+}
+
+#input-opravilo {
+    background-color: #F2D2AA;
+}
+#input-opravilo:focus {
+    outline: 2px solid #E28743 !important;
+    box-shadow: none;
+    border: none;
+}
+
+
+.input-group-text {
+    background-color: #E28743;
+    color: #873E23;
+    border: none;
+}
+
+.list-group-item {
+    background-color: #F2D2AA;
+    border: 1px solid #E28743;
+}
+
+.form-check-input {
+    background-color: #EAB676;
+}
+
+.form-check-input:focus {
+    outline: 3px solid #E28743 !important;
+    box-shadow: none;
+}
+
+.form-check-input:checked {
+    background-color: #873E23;
+    border: 1px solid #333;
+}
+
+
+.btn-outline-secondary {
+    background-color: #873E23;
+    color: #E28743;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #E28743;
+    color: #873E23;
+}
+
+.row {
+    margin-top: 3rem;
+}
+
+.steviloNalog {
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    /* padding-bottom: 0.5rem; */
+}
+
+.line-through {
+    text-decoration: line-through !important;
+}

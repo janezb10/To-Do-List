@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col glava">
+                <h1>To-Do List</h1>
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">Dodaj opravilo</span>
+                    <input type="text" id="input-opravilo" class="form-control" placeholder="opravilo" aria-label="Username" aria-describedby="addon-wrapping">
+                    <button class="btn btn-outline-secondary" type="button" id="gumb_dodajOpravilo">Dodaj</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ul class="list-group" id="todoList">
+                    <!-- <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                      <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+                      <span class="badge x bg-danger rounded-pill">X</span>
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                      <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+                      <span class="badge x bg-danger rounded-pill">X</span>
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                      <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+                      <span class="badge x bg-danger rounded-pill">X</span>
+                    </li> -->
+                  </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Število dokončanih opravil: <span class="steviloNalog" id="steviloDokoncanihNalog"> 0</span></p> 
+                <p>Število nedokončanih opravil: <span class="steviloNalog" id="steviloNedokoncanihNalog"> 0</span></p> 
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
